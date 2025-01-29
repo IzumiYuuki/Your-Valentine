@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     yesBtn.addEventListener('click', () => {
         alert('Yay! Happy Valentine\'s Day!');
-        image.src = 'happy-image.jpg'; // Replace with a path to a happy image
+        image.src = './images/happy-image.gif'; // Replace with a path to a happy image
     });
 
     noBtn.addEventListener('click', () => {
         alert('Oh no! Maybe next time.');
-        image.src = 'sad-image.jpg'; // Replace with a path to a sad image
+        image.src = './images/sad-image.gif'; // Replace with a path to a sad image
     });
 });
